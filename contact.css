@@ -122,7 +122,7 @@ button {
     margin-top: 5%;
 }
 .return-to-index a { color: grey; }
-.return-to-index:hover a { color: ghostwhite; cursor: pointer; }
+.return-to-index:hover a { color: ghostwhite; cursor: pointer;}
 
 @keyframes returnToIndex {
     0% {
