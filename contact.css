@@ -113,7 +113,6 @@ button {
 }
 
 .return-to-index {
-    color: grey;
     text-shadow: 0px 0px 20px;
     opacity: 0%;
     animation: returnToIndex 4s cubic-bezier(0.84, 0.36, 0.17, 0.63);
@@ -122,11 +121,8 @@ button {
     text-align: center;
     margin-top: 5%;
 }
-
-.return-to-index:hover {
-    color: ghostwhite;
-    cursor: pointer;
-}
+.return-to-index a { color: grey; }
+.return-to-index:hover a { color: ghostwhite; cursor: pointer; }
 
 @keyframes returnToIndex {
     0% {
