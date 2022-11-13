@@ -5,13 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact page</title>
+    <title>infs.world | contact page</title>
 </head>
 <body>
-    <div class="blank">
-        <h1>currently blank.</h1>
-        <h2>WIP</h2><br>
-        <a href="index.html"><h3>return to index</h3></a>
+    <div class="contact-me-top">
+        <div class="contact-me-h1">
+            <h1>contact page</h1>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form name="contact" method="POST" data-netlify="true" action="contact-success.html">
+            <input type="hidden" name="subject" value="Contact form response - infs.world">
+            <input type="text" name="name" placeholder="your name">
+            <input type="email" name="email" placeholder="your email">
+            <textarea name="message" placeholder="your message"></textarea>
+            <button type="submit">send your message</button>
+        </form>
+    </div>
+    <div class="return-to-index">
+        <h2><a href="index.html">return to index</a></h2>
     </div>
 </body>
 </html>
