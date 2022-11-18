@@ -29,11 +29,8 @@ a { text-decoration: none; }
 
 .return-to-index {
     opacity: 100%;
-    animation: returnToIndex 4s cubic-bezier(0.84, 0.36, 0.17, 0.63);
-    animation-delay: 5s;
-    animation-fill-mode: forwards;
     margin-top: 10%;
 }
 
-.return-to-index a { color: grey; }
-.return-to-index:hover a { color: ghostwhite; cursor: pointer;}
+.return-to-index a { color: ghostwhite; }
+.return-to-index:hover a { color: grey; cursor: pointer;}
