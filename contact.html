@@ -11,16 +11,21 @@
 <body>
     <div class="contact-me-top">
         <div class="contact-me-h1">
-            <h1>contact page</h1>
+            <h1>welcome to my contact page!</h1>
         </div>
     </div>
     <div class="contact-form">
         <form name="contact" method="POST" data-netlify="true" action="contact-success.html">
-            <input type="hidden" name="subject" value="Contact form response - infs.world">
-            <input type="text" name="name" placeholder="your name">
-            <input type="email" name="email" placeholder="your email">
-            <textarea name="message" placeholder="your message"></textarea>
-            <button type="submit">send your message</button>
+            <div class="contact-form-input">
+                <input type="hidden" name="subject" value="Contact form response - infs.world">
+                <span>your name!</span>
+                <input type="text" name="name">
+                <span>your email!</span>
+                <input type="email" name="email">
+                <span>your message!</span>
+                <textarea name="message"></textarea>
+                <button type="submit">send your message</button>
+            </div>
         </form>
     </div>
     <div class="return-to-index">
